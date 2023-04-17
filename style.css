@@ -1,0 +1,537 @@
+header{
+	margin: -25px;
+	padding: 0px;
+	font-family: 'Anton', 'Poppins', Bodoni MT, sans-serif;
+}
+
+header .logo img{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	padding: 0px;
+	margin-top: -65px;
+	margin-left: 10px;
+}
+
+header .navbar{
+	height: 145px;
+	width: 100%;
+	background: #A52A2A;
+	align-items: center;
+	text-align: center;
+	justify-content: space-evenly;
+	font-size: 18px;
+}
+header .ui{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: #A52A2A;
+}
+
+header .li{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+header .li:hover{
+	background-color: #A52A2A;
+}
+
+nav a{
+	height: auto;
+	width: 300px;
+	display: block;
+	padding: 7.5px;
+	text-decoration: none;
+	font-family: 'Anton', 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+}
+nav a:hover{
+	background-color: #A52A2A;
+	transition: 0.5s;
+	text-transform: uppercase;
+}
+
+/* Body */
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("images/mainvid.gif") !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body .title{
+	font-family: 'Anton', 'Poppins', sans-serif;
+	color: white;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+body .title h1{
+	font-size: 96px;
+	margin-right: 30px;
+	margin-top: 30%;
+	text-decoration: !important;
+	text-align: center;
+}
+body .title h5{
+	font-size: 48px;
+	margin-top: 20px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+body .title .order{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 15px;
+    width: 15%;
+    height: 42px;
+    color: #A52A2A;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 21px;
+    text-shadow: 0 0 3px #fff;
+    background: transparent;
+    border: 2px solid #A52A2A;
+    transition: 0.5s ease;
+}
+
+body .title .order:hover{
+	background-color: white;
+	color: #white;
+	transition: 0.5s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body .rewards{
+	font-family: 'Anton', 'Poppins', sans-serif;
+	margin-top: 450px;
+}
+
+body .rewards img{
+	height: 1080px;
+	width: 100%;
+	margin-bottom: 150px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: white;
+	background-position: center;
+}
+
+body .rewards h1{
+	margin-top: -650px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 76px;
+	text-decoration: none;
+	color: #A52A2A;
+}
+
+body .rewards h1:hover{
+	background-color: orangered;
+	transition: 0.5s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body .indextproducts{
+	margin-top: 200px;
+}
+
+#viewmorebtn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 32px;
+    color: #A52A2A;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-shadow: 0 0 3px #fff;
+    background: transparent;
+    border: 2px solid #A52A2A;
+    transition: 0.5s ease;
+}
+#viewmorebtn:hover{
+    background-color: #white;
+    color: white;
+}
+
+.aboutus{
+	font-family: 'Anton', 'Poppins', sans-serif;
+	margin-top: 80px;
+}
+
+#aboutus h3{
+	text-align: center;
+	color: white;
+}
+
+#aboutus h1{
+	text-align: center;
+	color: white;
+	text-decoration: underline; text-decoration-thickness: 1px; 
+	font-size: 48px;
+}
+
+#aboutus img{
+	height: 360px;
+	width: 634.5px;
+	border-radius: 4px;
+	
+
+}
+
+#aboutus p{
+	color: white;
+	font-size: 21px;
+}
+#aboutus2 img{
+	margin-top: 40px;
+	border-radius: 8px;
+	border-color: white;
+	border-style: solid;
+	height: 640px;
+	width: 100%;
+}
+
+
+/* branches */
+body .google-map {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+body .google-map iframe {
+  height: 740px;
+  width: 1080px;
+  left: 0;
+  top: 0;
+  margin-top: 40px ;
+  position: relative;
+  
+}
+/* branches */
+
+/* product cards */
+#product-cards{
+    font-family: 'Anton', 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+}
+#product-cards .card{
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#product-cards h1{
+    margin-top: 30px;
+    color: #331d09;
+    text-shadow: 1px 1px 1px black;
+}
+#product-cards h3{
+    letter-spacing: 3px;
+    color: #331d09;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+}
+#product-cards h5 span{
+    float: right;
+    color: #331d09;
+    cursor: pointer;
+}
+.checked{
+    color: rgb(255, 187, 0);
+}
+
+/* product cards */
+
+
+/* products individual page */
+.products-container {
+    background-color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxP {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, 12%);
+    padding: 45px;
+    margin: 15px 0;
+    width: 950px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "images info"
+    "images description";
+    grid-gap: 35px;
+}
+
+.boxP .images {
+    grid-area: images;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "active active active"
+    "idle idle idle";
+    grid-gap: 5px;
+}
+
+.boxP .images .img-holder img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.boxP .images .img-holder.active {
+    grid-area: active;
+}
+
+.boxP .images .img-holder:not(.active):hover {
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+.boxP .basic-info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.boxP .basic-info .rate {
+    color: var(--yellow-color);
+}
+
+.boxP .basic-info span {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.boxP .basic-info .options a {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.boxP .basic-info .options a:hover {
+    background-color: darkred;
+}
+
+.boxP .description {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.boxP .description p {
+    color: var(--gray-color);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.boxP .description .features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--gray-color);
+}
+
+.boxP .description .features i {
+    margin-right: 5px;
+}
+
+.boxP .description .features .fa-circle-check {
+    color: var(--tertiary-color);
+}
+
+.boxP .description .features .fa-circle-xmark {
+    color: var(--yellow-color);
+}
+
+.boxP .description .social {
+    list-style: none;
+    display: flex;
+}
+
+.boxP .description .social a {
+    margin-right: 15px;
+    color: var(--gray-color);
+}
+
+.boxP .description .social a:hover {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 991px) {
+    .box {
+        width: 750px;
+        grid-template-areas: 
+        "info info"
+        "images description";
+    }
+    .box .basic-info .options a {
+        padding: 8.5px 12px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+    .box .basic-info span {
+        position: absolute;
+        align-self: flex-end;
+    }
+    .box .basic-info .options {
+        position: absolute;
+        align-self: flex-end;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 600px;
+        grid-template-areas: 
+        "images info"
+        "description description";
+    }
+    .box .images {
+        gap: 3px;
+    }
+    .box .images .img-holder img {
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 640px) {
+    .box {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+        padding: 35px;
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        "images"
+        "info"
+        "description";
+    }
+}
+
+/* footer */
+#footer{
+    padding: 5 0 5 0;
+    color: #d0d0d0;
+    font-size: 16px;
+    background: #A52A2A;
+    font-family: 'Anton', 'Poppins', sans-serif;
+}
+#footer .footer-top{
+    padding: 20px 0 20px;
+    background: #A52A2A;
+    color: white;
+}
+#footer .footer-top .footer-contact h3{
+    color: white;
+    font-size: 12px;
+    text-shadow: 1px 1px 1px black;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin:  0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top h5{
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 20px;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+    padding-right: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child{
+    padding: 0;
+}
+#footer .footer-top .footer-links ul li a{
+    color: white;
+    line-height: 2;
+}
+#footer .footer-top .socail-links a{
+    font-size: 29px;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    padding-right: 4px;
+    border-radius: 50px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s ease;
+}
+#footer .copyright{
+    text-align: center;
+    float: left; 
+}
+#footer .credits{
+    float: right;
+    text-align: center;
+}
+/* footer */
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    background-color: #black;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 50px;
+}
